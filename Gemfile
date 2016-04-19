@@ -29,6 +29,13 @@ gem 'devise', '>= 3.2.4'
 #simple form gem for controller new and create actions
 gem 'simple_form'
 
+#integrate bootstrap
+gem 'bootstrap-sass', '~> 3.3.0'
+
+# auto-prefixer gem-adds proper vendor prefixes to CSS code so it compiles
+# properly
+gem 'autoprefixer-rails'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
