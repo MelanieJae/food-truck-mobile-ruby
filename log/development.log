@@ -1,0 +1,12 @@
+
+
+Started GET "/" for ::1 at 2016-04-19 11:12:08 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 546ms (Views: 529.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/trucks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-19 11:12:09 -0400
+
+
+Started GET "/assets/trucks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-19 11:12:09 -0400
