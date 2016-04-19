@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   get 'welcome/index'
   resources :users do
     resources :payments, :only => [:create, :show]
+  end
+  
   resources :trucks do
     resources :menus
   end
