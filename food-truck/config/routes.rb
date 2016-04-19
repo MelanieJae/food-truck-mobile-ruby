@@ -1,6 +1,11 @@
 Rails.application.routes.draw do
+  
   get 'welcome/index'
-  resources :users, :trucks, :menus, :payments
+  resources :users do
+    resources :payments, :only => [:create, :show]
+  resources :trucks do
+    resources :menus
+  end
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
