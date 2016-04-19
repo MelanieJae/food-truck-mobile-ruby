@@ -26,6 +26,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #devise gem for handling user authentication
 gem 'devise', '>= 3.2.4'
 
+#simple form gem for controller new and create actions
+gem 'simple_form'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
