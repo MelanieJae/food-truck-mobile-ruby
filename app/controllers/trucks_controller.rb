@@ -1,13 +1,15 @@
 class TrucksController < ApplicationController
 	
-def new
-end
+	def new
+	end
 
-def create
-end
+	def create
+	end
 
-def update
-end
+	def update
+	end
 
-def destroy
+	def destroy
+	end
+
 end

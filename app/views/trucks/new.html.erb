@@ -1,0 +1,15 @@
+<h1>Create a new truck listing</h1>
+
+<div class="truck-box col-xs-8 col-xs-offset-2" >
+	<%= simple_form_for @truck do |f| %>
+		<p>
+			<%= f.input :name %>
+			<%= f.input :description %>
+			<%= f.input :website %>
+			<%= f.input :payment_options %>
+
+		</p>
+			<!--- form button for creating a new truck -->
+		<%= f.submit 'Post truck listing', :class => "btn btn-primary" %>
+	<% end %>
+</div>
